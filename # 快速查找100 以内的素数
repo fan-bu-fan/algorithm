@@ -1,0 +1,11 @@
+# 快速查找100 以内的素数
+a = [True for i in range(0, 101)]
+for i in range(2, 50):
+    if a[i]:
+        j = i*i
+        while(j<101):
+            a[j] = False
+            j += i
+for i in range(2, 101):
+    if a[i]:
+        print(i)
