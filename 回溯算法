@@ -2,8 +2,7 @@ https://leetcode-cn.com/problems/subsets/solution/hui-su-si-xiang-tuan-mie-pai-l
 回溯思想团灭 排列组合 子集的问题
 
 
-39.组合总和
-
+39.组合总和 --->类似于完全背包问题 里面所有的元素可以重复使用
 40. 组合总和 II
 
 46. 全排列
