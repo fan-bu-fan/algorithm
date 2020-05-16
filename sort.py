@@ -55,7 +55,13 @@ def build_heap(tree, n):
         heapify(tree, n, i)
     root = (n - 1)// 2
 
+# 插入一个元素
+def insert(arr,i):
+    arr.append(i)
+    build_heap(arr, len(arr)-1)
+    print(arr)
 
+# 删除
 def heap_sort(tree, index_length):
     build_heap(tree, index_length)
     print(tree)
